@@ -62,8 +62,12 @@ int main() {
    for (int k = 0;k < i / 2 ;k++) {
       printf(" ");
       }
-      printf("%c\n",c);
-    
+      printf("%c",c);
+    for(int k=i/2+1;k<m;k++){
+    	printf(" ");
+	}
+	printf("\n");
+
   for (i-=2;i >= 0;i -= 2) {
     j = 1;
     for (;j <= i / 2;j++) {
